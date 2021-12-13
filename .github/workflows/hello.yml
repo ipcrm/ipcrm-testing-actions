@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: ipcrm Hello World
-        uses: ipcrm/hello-world-javascript-action@v1.2
+        uses: ipcrmdemo/hello-world-javascript-action@v1.2
 
