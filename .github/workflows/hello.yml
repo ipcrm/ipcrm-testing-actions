@@ -1,0 +1,12 @@
+name: Hello world
+
+on:
+  workflow_dispatch:
+
+jobs:
+  say_hi:
+    runs-on: ubuntu-latest
+    steps:
+      - name: ipcrm Hello World
+        uses: ipcrm/hello-world-javascript-action@v1.2
+
